@@ -1,0 +1,9 @@
+.fl-builder-content {
+	.fl-row-fixed-width {
+		max-width: 1036px;
+		max-width: rem(1036px);
+		@include breakpoint($mobile) {
+			max-width: 95%;
+		}
+	}
+}
