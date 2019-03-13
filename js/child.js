@@ -1,7 +1,9 @@
 (function($) {
 	jQuery(document).ready(function(){        
 
-      
+    //Match height
+   
+
     // Setup testimonial slider
     jQuery('.section-testimonial .twp-testimonial-list').slick({
       slidesToShow: 1,

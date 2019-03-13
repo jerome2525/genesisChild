@@ -1,15 +1,19 @@
 //@include font-face("Georgia", font-files("Georgia.woff")); => include font face properly, just place it on /fonts folder
 //@include font-face("Georgia", font-files("Georgia.woff"));
-
+$greenhover: #c2bd96;
 $red: #E1261C;
-$blue: #337ab7;
+$blue: #0077b5;
 $gray: #9b9b9b;
 $darkgray: darken($gray, 40%);
 $black: #232323;
 $gold: #D3B88B;
 $offwhite: #f8f8f8;
 $green: #69804e;
-
+$white: #ffffff;
+$orange: #ffbe64;
+$lightgreen: #c2bd96;
+$lightenblack: #333333;
+$yellowgreen: #a69f64;
 /* Fonts
 ---------------------------------------- */
 $font-stack-1: 'Lato', Arial, sans-serif;
@@ -33,6 +37,7 @@ $mobile: max-width 767px;
 $tablet: 768px 1023px;
 $portrait: 1024px 1279px;
 $desk: 1300px;
+$small_device: max-width 415px;
 
 
 
